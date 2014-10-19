@@ -1,1 +1,1 @@
-/Users/Matsuda/Documents/Titanium_Studio_Workspace/secondProject/Resources/app.js
+/Users/Matsuda/test/Titanium_Studio_Workspace/secondProject/Resources/app.js
