@@ -20,7 +20,6 @@ var tab1 = Titanium.UI.createTab({
 
 var label1 = Titanium.UI.createLabel({
 	text:'fontSizeにはフォントの大きさを表示します。fontFamilyには多くのフォントを指定できますが、存在しないフォントを指定した場合、デフォルトのフォントで置き換えられます',
-	width:'200',
 });
 
 win1.add(label1);
@@ -41,7 +40,7 @@ var tab2 = Titanium.UI.createTab({
 var label2 = Titanium.UI.createLabel({
 	color:'#999',
 	text:'I am Window 2',
-	font:{fontSize:20,fontFamily:'Helvetica Neue',fontStyle:"italic",fontWeight:"bold"},
+	font:{fontSize:20,fontFamily:'Helvetica Neue'},
 	textAlign:'center',
 	width:'auto'
 });
