@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/Matsuda/Documents/Titanium_Studio_Workspace/secondProject/build/iphone/main.m
+  /Users/Matsuda/test/Titanium_Studio_Workspace/secondProject/build/iphone/main.m
