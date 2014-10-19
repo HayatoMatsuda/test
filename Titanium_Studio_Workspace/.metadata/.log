@@ -1,0 +1,65 @@
+!SESSION 2014-10-17 17:17:41.010 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=ja_JP
+Framework arguments:  -keyring /Users/Matsuda/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Matsuda/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-10-17 17:19:44.460
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-10-17 17:19:44.638
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-10-17 17:19:44.638
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-10-17 17:19:44.639
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-10-17 17:19:59.810
+!MESSAGE An internal error occurred during: "Computing SDK Info...".
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.ui.portal.processor.MobileSDKConfigurationHelper.getVersionInfo(MobileSDKConfigurationHelper.java:133)
+	at com.appcelerator.titanium.ui.portal.processor.MobileSDKConfigurationProcessor.computeStatus(MobileSDKConfigurationProcessor.java:74)
+	at com.aptana.configurations.processor.AbstractConfigurationProcessor.getStatus(AbstractConfigurationProcessor.java:154)
+	at com.appcelerator.titanium.ui.portal.actionController.MobileSDKActionController$1.run(MobileSDKActionController.java:127)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.core 4 1 2014-10-17 17:20:16.464
+!MESSAGE sudo: a password is required
+
+!ENTRY unknown 8 1 2014-10-17 17:55:19.891
+!MESSAGE 
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-10-18 21:22:21.932
+!MESSAGE An internal error occurred during: "Update iOS info".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at java.util.ArrayList.add(ArrayList.java:352)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator.detectXCode(IOSSDKLocator.java:423)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator.parseTiInfo(IOSSDKLocator.java:180)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator.updateTiInfo(IOSSDKLocator.java:145)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator.access$0(IOSSDKLocator.java:142)
+	at com.appcelerator.titanium.ios.core.IOSSDKLocator$1.run(IOSSDKLocator.java:163)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2014-10-19 20:15:03.855 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=ja_JP
+Framework arguments:  -keyring /Users/Matsuda/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Users/Matsuda/test/Titanium_Studio_Workspace -keyring /Users/Matsuda/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-10-19 20:15:05.331
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2014-10-19 20:15:06.014
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-10-19 20:15:06.839
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-10-19 20:15:06.839
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-10-19 20:15:06.839
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
