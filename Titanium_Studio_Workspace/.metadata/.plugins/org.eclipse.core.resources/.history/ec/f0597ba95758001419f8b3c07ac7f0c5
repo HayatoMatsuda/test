@@ -1,0 +1,7 @@
+//コントローラー全体に適用されるスタイル
+".container":{
+	backgroundColor:"white",
+},
+"Label":{
+	
+}
