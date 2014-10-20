@@ -55,8 +55,7 @@ win1.add(button2);
 //
 var win2 = Titanium.UI.createWindow({  
     title:'Tab 2',
-    backgroundColor:'#fff',
-    layout:'vertical',
+    backgroundColor:'#fff'
 });
 var tab2 = Titanium.UI.createTab({  
     icon:'KS_nav_ui.png',
@@ -149,7 +148,6 @@ textField7.addEventListener('change',function(e){
 	label2.text = e.value;
 });
 
-win2.add(label2);
 win2.add(textField1);
 win2.add(textField2);
 win2.add(textField3);

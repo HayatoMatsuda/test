@@ -55,8 +55,7 @@ win1.add(button2);
 //
 var win2 = Titanium.UI.createWindow({  
     title:'Tab 2',
-    backgroundColor:'#fff',
-    layout:'vertical',
+    backgroundColor:'#fff'
 });
 var tab2 = Titanium.UI.createTab({  
     icon:'KS_nav_ui.png',
@@ -81,7 +80,7 @@ var textField1 = Titanium.UI.createTextField({
 	hintText:'KEYBORARD_DEFAULT',
 	clearButtonMode:Titanium.UI.INPUT_BUTTONMODE_ONFOCUS,
 });
-var textField2 = Titanium.UI.createTextField({
+var textField2 = TItanium.UI.createTextField({
 	keyboardType:Titanium.UI.KEYBOARD_DECIMAL_PAD,
 	borderStyle:Titanium.UI.INPUT_BORDERSTYLE_LINE,
 	top:'10',
@@ -90,7 +89,7 @@ var textField2 = Titanium.UI.createTextField({
 	hintText:'KEYBORARD_DECIMAL_PAD',
 	clearButtonMode:Titanium.UI.INPUT_BUTTONMODE_ONBLUR,
 });
-var textField3 = Titanium.UI.createTextField({
+var textField3 = TItanium.UI.createTextField({
 	keyboardType:Titanium.UI.KEYBOARD_NUMBER_PAD,
 	borderStyle:Titanium.UI.INPUT_BORDERSTYLE_BEZEL,
 	top:'10',
@@ -98,7 +97,7 @@ var textField3 = Titanium.UI.createTextField({
 	width:'250',
 	hintText:'KEYBORARD_NUMBER_PAD',
 });
-var textField4 = Titanium.UI.createTextField({
+var textField4 = TItanium.UI.createTextField({
 	keyboardType:Titanium.UI.KEYBOARD_NUMBERS_PUNCTUATION,
 	borderStyle:Titanium.UI.INPUT_BORDERSTYLE_NONE,
 	top:'10',
@@ -106,7 +105,7 @@ var textField4 = Titanium.UI.createTextField({
 	width:'250',
 	hintText:'KEYBORARD_NUMBERS_PUNCTUATION',
 });
-var textField5 = Titanium.UI.createTextField({
+var textField5 = TItanium.UI.createTextField({
 	keyboardType:Titanium.UI.KEYBOARD_URL,
 	borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
 	top:'10',
@@ -115,7 +114,7 @@ var textField5 = Titanium.UI.createTextField({
 	hintText:'KEYBORARD_URL',
 	autocaptialzation:'FALSE',
 });
-var textField6 = Titanium.UI.createTextField({
+var textField6 = TItanium.UI.createTextField({
 	keyboardType:Titanium.UI.KEYBOARD_EMAIL,
 	borderStyle:Titanium.UI.INPUT_BORDERSTYLE_LINE,
 	top:'10',
@@ -125,7 +124,7 @@ var textField6 = Titanium.UI.createTextField({
 	autocaptialzation:'FALSE',
 	clearButtonMode:Titanium.UI.INPUT_BUTTONMODE_ALWAYS,
 });
-var textField7 = Titanium.UI.createTextField({
+var textField7 = TItanium.UI.createTextField({
 	keyboardType:Titanium.UI.KEYBOARD_ASCII,
 	borderStyle:Titanium.UI.INPUT_BORDERSTYLE_BEZEL,
 	top:'10',
@@ -149,7 +148,6 @@ textField7.addEventListener('change',function(e){
 	label2.text = e.value;
 });
 
-win2.add(label2);
 win2.add(textField1);
 win2.add(textField2);
 win2.add(textField3);
