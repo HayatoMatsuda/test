@@ -149,7 +149,6 @@ textField7.addEventListener('change',function(e){
 	label2.text = e.value;
 });
 
-win2.add(label2);
 win2.add(textField1);
 win2.add(textField2);
 win2.add(textField3);
