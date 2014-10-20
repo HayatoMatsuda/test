@@ -1,8 +1,8 @@
 =run
-LAST_LAUNCH_TIMESTAMP=1413767435152
+LAST_LAUNCH_TIMESTAMP=1413769956893
 eclipse.preferences.version=1
 firstProject\:launchMode=run
-firstProject\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.1204D315-CF6C-4A6D-8258-E4BF6F843D3E
+firstProject\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.434D3D48-B5A4-4DEF-A6F5-E5E82E0C144B
 preference.show.console.onError=true
 preference.studio.perspective.version=103
 secondProject\:launchMode=run

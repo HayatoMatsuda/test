@@ -158,7 +158,78 @@ win2.add(textField5);
 win2.add(textField6);
 win2.add(textField7);
 
+var button3 = Titanium.UI.createButton({
+	title:'ボタン3',
+	top:'20',
+	width:'50%',
+});
+button3.addEventListener('click',function(e){
+	var alertDialog1 = Titanium.UI.createAlertDialog({
+		title:'入力確認',
+		message:'パスワードが未入力です',
+	}).show();
+});
+win2.add(button3);
 
+var button4 = Titanium.UI.createButton({
+	title:'ボタン4',
+	top:'10',
+	width:'50%',
+});
+button4.addEventListener('click',function(e){
+	alertDialog2.show();
+});
+win2.add(button4);
+var alertDialog2 = Titanium.UI.createAlertDialog({
+		title:'登録確認',
+		message:'この内容で登録しますか？',
+	buttonNames:['OK','Cancel'],
+	cancel:1
+});
+alertDialog2.addEventListener('click',function(e){
+	if(e.index === e.cancel){
+		Titanium.API.info(e.cancel);
+	}
+	if(e.index === 0){
+		Titanium.API.info('OK');
+	}else if(e.index === 1){
+		Titanium.API.info('Cancle');
+	}
+});
+
+var button5 = Titanium.UI.createButton({
+	title:'ボタン5',
+	top:'10',
+	width:'50%',
+});
+button5.addEventListener('click',function(e){
+	optionDialog1.show();
+});
+win2.add(button5);
+var optionDialog1 = Titanium.UI.createOptionDialog({
+	title:'選択してください',
+	options:['オプション1','オプション2','オプション3','キャンセル'],
+	cancle:3
+});
+optionDialog1.addEventListener('click',function(e){
+	if(e.index === e.cancel){
+		Titanium.API.info(e.cancel);
+	}
+	switch(e.index){
+		case 0:
+			Titanium.API.info('0');
+			break;
+		case 1:
+			Titanium.API.info('1');
+			break;
+		case 2:
+			Titanium.API.info('2');
+			break;
+		default:
+			Titanium.API.info('3');
+			break;
+		}
+});
 
 //
 //  add tabs

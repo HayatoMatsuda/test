@@ -1,0 +1,47 @@
+Logger started at: 2014年10月20日 11時51分08秒 JST
+Component: com.appcelerator.titanium.ios.core
+Version: 1.0.0.1411756658
+[51:8.599] Sent: >21*1413773468584*version<
+[51:8.601] Recv: >1413773468584*2*3.4.0<
+[51:8.611] Sent: >20*1413773468585*update<
+[51:8.612] Recv: >1413773468585*3.4.0<
+[51:8.613] Sent: >45*1413773468586*option*stepFiltersEnabled*false<
+[51:8.614] Recv: >1413773468586<
+[51:8.614] Sent: >36*1413773468587*option*monitorXHR*true<
+[51:8.615] Recv: >1413773468587<
+[51:8.615] Sent: >45*1413773468588*option*suspendOnFirstLine*false<
+[51:8.615] Recv: >1413773468588<
+[51:8.616] Sent: >46*1413773468589*option*suspendOnExceptions*false<
+[51:8.616] Recv: >1413773468589<
+[51:8.616] Sent: >41*1413773468590*option*suspendOnErrors*true<
+[51:8.617] Recv: >1413773468590<
+[51:8.617] Sent: >43*1413773468591*option*suspendOnKeywords*true<
+[51:8.617] Recv: >1413773468591<
+[51:8.618] Sent: >45*1413773468592*option*bypassConstructors*false<
+[51:8.618] Recv: >1413773468592<
+[51:8.618] Sent: >45*1413773468593*option*stepFiltersEnabled*false<
+[51:8.619] Recv: >1413773468593<
+[51:8.619] Sent: >30*1413773468594*detailFormatters<
+[51:8.619] Recv: >1413773468594<
+[51:8.621] Sent: >54*1413773468595*breakpoint*create*app:/app.js*215*1*0**1<
+[51:8.621] Recv: >1413773468595*created<
+[51:8.622] Sent: >20*1413773468596*enable<
+[51:8.622] Recv: >1413773468596<
+[51:8.627] Recv: >threads*created*0*kroll$1<
+[51:8.636] Recv: >log*out*[DEBUG] Loading: /Users/Matsuda/Library/Developer/CoreSimulator/Devices/434D3D48-B5A4-4DEF-A6F5-E5E82E0C144B/data/Containers/Bundle/Application/377ADC74-12B9-4EEE-9FDF-85C37218040B/thirdProject.app/app.js, Resource: app_js<
+[51:8.637] Recv: >scripts*created*306231456|app:/app.js||1|243<
+[51:8.638] Recv: >resumed*0*started<
+[51:8.638] Recv: >log*out*[DEBUG] Loading: /Users/Matsuda/Library/Developer/CoreSimulator/Devices/434D3D48-B5A4-4DEF-A6F5-E5E82E0C144B/data/Containers/Bundle/Application/377ADC74-12B9-4EEE-9FDF-85C37218040B/thirdProject.app/_app_props_.json, Resource: _app_props__json<
+[51:8.763] Recv: >log*out*[DEBUG] Application booted in 288.401008 ms<
+[51:33.498] Recv: >suspended*0*breakpoint*app:/app.js*215<
+[51:33.500] Sent: >22*1413773468597*frames*0<
+[51:33.501] Recv: >1413773468597*0||e|app:/app.js|215|false|0|0<
+[51:44.989] Sent: >34*1413773468598*variables*0*frame[0]<
+[51:44.992] Recv: >1413773468598*this|object|no|[object TiUIOptionDialog]*e|object|ol|[object Object]*arguments|object|opnl|[object Arguments]*label2|object|nov|[object TiUILabel]*textField4|object|nov|[object TiUITextField]*button1|object|nov|[object TiUIButton]*button2|object|nov|[object TiUIButton]*button5|object|nov|[object TiUIButton]*textField5|object|nov|[object TiUITextField]*button4|object|nov|[object TiUIButton]*label1|object|nov|[object TiUILabel]*alertDialog2|object|nov|[object TiUIAlertDialog]*textField1|object|nov|[object TiUITextField]*tab1|object|nov|[object TiUITab]*win2|object|nov|[object TiUIWindow]*button3|object|nov|[object TiUIButton]*tabGroup|object|nov|[object TiUITabGroup]*textField7|object|nov|[object TiUITextField]*textField3|object|nov|[object TiUITextField]*textField2|object|nov|[object TiUITextField]*win1|object|nov|[object TiUIWindow]*tab2|object|nov|[object TiUITab]*textField6|object|nov|[object TiUITextField]*optionDialog1|object|nov|[object TiUIOptionDialog]*console|object|nov|[object TiConsole...1<
+[52:18.709] Sent: >36*1413773468599*variables*0*frame[0].e<
+[52:18.710] Recv: >1413773468599*index|number|wvl|0*destructive|number|wvl|-1*cancel|number|wvl|-1*bubbles|boolean|wvl|1*type|string|wvl|"click"*source|object|novl|[object TiUIOptionDialog]*cancelBubble|boolean|wvl|0<
+[53:0.456] Sent: >9**resume*0<
+[53:0.457] Recv: >resumed*0*resume<
+[53:0.459] Recv: >log*out*[INFO] 0<
+[53:48.932] Sent: >10**terminate<
+----------End of file----------
