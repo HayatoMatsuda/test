@@ -1,0 +1,20 @@
+function addTask(){
+	var addWin,index;
+	if(Alloy.Globals.currentTab == undefined){
+		index = Alloy.createController("index");
+		Alloy.Globals.currentTab = index.getView("taskTab");
+	}
+	addWin = Alloy.createController("add").getView("addWin");
+	Alloy.Globals.currentTab.open(addWin);
+}
+
+function Task(){
+	var addWin,index;
+	if(Alloy.Globals.currentTab == undefined){
+		index = Alloy.createController("index");
+		Alloy.Globals.currentTab = index.getView("taskTab");
+	}
+	addWin = Alloy.createController("add").getView("addWin");
+	Alloy.Globals.currentTab.open(addWin);
+}
+

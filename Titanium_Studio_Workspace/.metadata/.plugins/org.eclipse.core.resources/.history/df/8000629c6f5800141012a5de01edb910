@@ -1,0 +1,11 @@
+<Alloy>
+	<Collection src="task" />
+	<TabGroup>
+		<Tab title="やるべきこと" id="taskTab">
+			<Requrie type="view" src="task" />
+		</Tab>
+		<Tab title="完了" id="doneTab">
+			<Requrie type="view" src="done" />
+		</Tab>
+	</TabGroup>
+</Alloy>

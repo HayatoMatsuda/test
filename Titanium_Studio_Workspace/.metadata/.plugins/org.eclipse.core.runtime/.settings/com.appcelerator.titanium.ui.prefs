@@ -1,5 +1,7 @@
 =run
-LAST_LAUNCH_TIMESTAMP=1413808641520
+LAST_LAUNCH_TIMESTAMP=1413864069564
+TaskManage\:launchMode=run
+TaskManage\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.DDE8D093-B728-4400-9941-29A9DCFD4BF0
 UseAlloy\:launchMode=run
 UseAlloy\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.434D3D48-B5A4-4DEF-A6F5-E5E82E0C144B
 eclipse.preferences.version=1

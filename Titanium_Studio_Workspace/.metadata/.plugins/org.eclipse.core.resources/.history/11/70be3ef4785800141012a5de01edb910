@@ -1,0 +1,36 @@
+"#addWin":{
+	backgroundColoer:"#FFFFFF"
+}
+"Label":{
+	font:{
+		fontSize:16,
+		fontWeight:"bold"
+	},
+	textAlign:"left",
+	color:"#333333",
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	top:11,
+	bottom:11,
+	left:11,
+}
+"#inputDetail":{
+	font:{
+		fontSize:16,
+	},
+	height:96,
+	
+}
+"#limitDate":{
+	left:5,
+	font:{
+		fontSize:14
+	}
+}
+"#importance":{
+	left:5,
+	color:"#f00",
+	font:{
+		fontSize:14,
+	}
+}
