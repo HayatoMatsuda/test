@@ -1,0 +1,44 @@
+function addTask(){
+	var addWin,index;
+	if(Alloy.Globals.currentTab == undefined){
+		index = Alloy.createController("index");
+		Alloy.Globals.currentTab = index.getView("taskTab");
+	}
+	addWin = Alloy.createController("add").getView("addWin");
+	Alloy.Globals.currentTab.open(addWin);
+}
+
+function editTask(){
+	var editWin,index;
+	if(Alloy.Globals.currentTab == undefined){
+		index = Alloy.createController("index");
+		Alloy.Globals.currentTab = index.getView("taskTab");
+	}
+	var mTask = Alloy.Collections.task.where({
+		alloy_id: e.itemId
+	})[0];
+	var arg = {
+		e_id: e.itemId,
+		what: mTask.get('datail'),
+		limitDate: mTask.get('limitDate'),
+		importance: mTask.get('importacne')
+	};
+	editWin = Alloy.createController("edit",arg).getView("editWin");
+	
+	Alloy.Globals.currentTab.open(editWin);
+}
+
+function transformFunction(model){
+	var transform, limitTime, importance;
+	transform = model.toJSON();
+	transform.limitDate ="期日:" + limitDate;
+	importance = tranceform.importance;
+	transform.importance = "重要度:" + importance;
+	return transform;
+}
+
+function filterFunction(collection){
+	return collection.where({
+		status:0
+	});
+}

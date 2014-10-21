@@ -1,0 +1,45 @@
+function showSliderValue(e){
+	$.sliderValue.text = String.format("%3.0f", e.value);
+}
+
+function checkDate(){
+	var dateStr = $.inputLimitDate.value;
+	if(dateStr.length === 0){
+		return true;
+	}
+	if(!dateStr.match(/^\d{4}-\d{2}$/)){
+		return false;
+	}
+	var vYear = dateStr.substr(0, 4);
+	var vMonth = dateStr.substr(5, 2) -1;
+	var vDay = dateStr.substr(8,2);
+	//月・日の妥当性チェック
+	
+	var mTask = Alloy.Collections.task.where({
+		alloy_id: e.itemId
+	})[0];
+	var arg = {
+		e_id: e.itemId,
+		what: mTask.get('datail'),
+		limitDate: mTask.get('limitDate'),
+		importance: mTask.get('importacne')
+	};
+	editWin = Alloy.createController("edit",arg).getView("editWin");
+	
+	Alloy.Globals.currentTab.open(editWin);
+}
+
+function transformFunction(model){
+	var transform, limitTime, importance;
+	transform = model.toJSON();
+	transform.limitDate ="期日:" + limitDate;
+	importance = tranceform.importance;
+	transform.importance = "重要度:" + importance;
+	return transform;
+}
+
+function filterFunction(collection){
+	return collection.where({
+		status:0
+	});
+}

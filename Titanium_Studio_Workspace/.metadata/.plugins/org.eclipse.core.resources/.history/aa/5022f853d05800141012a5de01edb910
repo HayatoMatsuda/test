@@ -1,0 +1,9 @@
+<Alloy>
+	<Collection src="task" />
+	<TabGroup>
+		<Tab title="やるべきこと" id="taskTab">
+			<Require type="view" src="task" />
+		</Tab>
+
+	</TabGroup>
+</Alloy>
