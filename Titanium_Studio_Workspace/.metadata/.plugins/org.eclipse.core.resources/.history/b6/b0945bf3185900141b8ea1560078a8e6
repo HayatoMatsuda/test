@@ -1,0 +1,16 @@
+"#lookWin":{
+	backgroundColor:"#FFFFFF"
+}
+"Label":{
+	font:{
+		fontSize:16,
+		fontWeight:"bold"
+	},
+	textAlign: 'center',
+	color:"#333333",
+	height:Ti.UI.SIZE,
+	top:27,
+	bottom:11,
+	left:11,
+}
+

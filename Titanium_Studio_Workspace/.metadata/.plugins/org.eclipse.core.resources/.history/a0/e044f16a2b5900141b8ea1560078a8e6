@@ -1,0 +1,26 @@
+"#lookWin":{
+	backgroundColor:"#FFFFFF"
+}
+"Label":{
+	font:{
+		fontSize:16,
+		fontWeight:"bold"
+	},
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	textAlign: 'center',
+	color:"#333333",
+	top:20,
+	bottom:11,
+	right:20
+}
+
+"#question":{
+	font:{
+		fontSize:40,
+	},
+	textAlign: 'center',
+	color:"#333333",
+	top:30,
+	left:"50%"
+}

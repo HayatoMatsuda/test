@@ -1,0 +1,21 @@
+$.index.addEventListener("open",function(e){
+	Alloy.Globals.currentTab = e.activeTab;
+});
+$.index.addEventListener("focus",function(e){
+	Alloy.Globals.currentTab = e.tab;
+});
+$.index.addEventListener("close",function(e){
+	$.destroy();
+});
+
+//画面向き固定
+$.index.orientationModes = [Ti.UI.LANDSCAPE_LEFT];
+
+$.index.open();
+
+
+function lookButton(){
+	//質問と回答を見る画面に遷移するボタンの関数
+	var lookWin = Alloy.createController("look").getView();
+	lookWin.open();
+}

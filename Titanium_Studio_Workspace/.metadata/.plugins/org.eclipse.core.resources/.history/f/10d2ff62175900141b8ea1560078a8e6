@@ -1,0 +1,22 @@
+"#lookWin":{
+	backgroundColor:"#FFFFFF"
+}
+"Label":{
+	font:{
+		fontSize:16,
+		fontWeight:"bold"
+	},
+	textAlign:"right",
+	color:"#333333",
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	top:50,
+	bottom:11,
+	left:11,
+}
+
+"Button":{
+	textAlign:"right",
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+}

@@ -1,0 +1,5 @@
+<Alloy>
+	<Window title="index">
+		<Button title="look" onClick='lookButton' id="lookButton" />
+	</Window>
+</Alloy>

@@ -1,0 +1,6 @@
+
+function lookButton(){
+	var lookWin;
+	lookWin = Alloy.createController("look").getView("lookWin");
+	Alloy.Globals.currentTab.open(lookWin);
+}
