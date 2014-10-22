@@ -1,0 +1,7 @@
+<Alloy>
+	<Window title="index">
+		<RightNavButton>
+			<Button title="look" onClick='addTask' id="lookButton" />
+		</RightNavButton>
+	</Window>
+</Alloy>

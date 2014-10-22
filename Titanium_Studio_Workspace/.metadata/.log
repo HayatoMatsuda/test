@@ -1750,3 +1750,406 @@ java.lang.Error: Error: could not match input
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2014-10-21 14:22:33.899 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=ja_JP
+Framework arguments:  -keyring /Users/Matsuda/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Matsuda/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-10-21 14:22:37.098
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2014-10-21 14:22:37.764
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2014-10-21 14:22:37.958
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-10-21 14:22:37.958
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-10-21 14:22:37.958
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-21 19:07:46.489
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.createWarning(AlloyViewValidator.java:410)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifIDUnused(AlloyViewValidator.java:358)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$1(AlloyViewValidator.java:350)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:249)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-21 19:07:48.008
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.createWarning(AlloyViewValidator.java:410)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifIDUnused(AlloyViewValidator.java:358)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$1(AlloyViewValidator.java:350)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:249)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-21 19:07:49.018
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.createWarning(AlloyViewValidator.java:410)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifIDUnused(AlloyViewValidator.java:358)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$1(AlloyViewValidator.java:350)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:249)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-21 19:09:39.763
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.createWarning(AlloyViewValidator.java:410)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifIDUnused(AlloyViewValidator.java:358)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$1(AlloyViewValidator.java:350)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:249)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-21 19:09:41.777
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.createWarning(AlloyViewValidator.java:410)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifIDUnused(AlloyViewValidator.java:358)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$1(AlloyViewValidator.java:350)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:249)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-21 19:09:47.294
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.createWarning(AlloyViewValidator.java:410)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifIDUnused(AlloyViewValidator.java:358)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$1(AlloyViewValidator.java:350)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:249)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-21 19:42:55.005
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.Error: Error: could not match input
+	at com.aptana.xml.core.parsing.XMLScanner.zzScanError(XMLScanner.java:538)
+	at com.aptana.xml.core.parsing.XMLScanner.yylex(XMLScanner.java:692)
+	at com.aptana.xml.core.parsing.XMLScanner.nextToken(XMLScanner.java:313)
+	at com.aptana.xml.core.parsing.XMLParser.advance(XMLParser.java:148)
+	at com.aptana.xml.core.parsing.XMLParser.parseAll(XMLParser.java:142)
+	at com.aptana.xml.core.parsing.XMLParser.parse(XMLParser.java:113)
+	at com.aptana.parsing.AbstractParser.parse(AbstractParser.java:10)
+	at com.aptana.parsing.ParsingEngine.noCacheParse(ParsingEngine.java:424)
+	at com.aptana.parsing.ParsingEngine.parse(ParsingEngine.java:229)
+	at com.aptana.parsing.ParserPoolFactory.parse(ParserPoolFactory.java:230)
+	at com.aptana.index.core.build.BuildContext.parse(BuildContext.java:140)
+	at com.aptana.index.core.build.BuildContext.getAST(BuildContext.java:111)
+	at com.aptana.index.core.build.BuildContext.getAST(BuildContext.java:95)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:215)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.core.build.UnifiedBuilder.buildEnding(UnifiedBuilder.java:230)
+	at com.aptana.core.build.UnifiedBuilder.build(UnifiedBuilder.java:201)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-21 23:28:21.332
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifClassUnused(AlloyViewValidator.java:390)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$2(AlloyViewValidator.java:372)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:258)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-21 23:28:51.516
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifClassUnused(AlloyViewValidator.java:390)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$2(AlloyViewValidator.java:372)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:258)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-21 23:28:54.542
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifClassUnused(AlloyViewValidator.java:390)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$2(AlloyViewValidator.java:372)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:258)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-22 10:59:35.562
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifClassUnused(AlloyViewValidator.java:390)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$2(AlloyViewValidator.java:372)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:258)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-22 10:59:38.578
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifClassUnused(AlloyViewValidator.java:390)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$2(AlloyViewValidator.java:372)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:258)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-22 11:13:44.498
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifClassUnused(AlloyViewValidator.java:390)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$2(AlloyViewValidator.java:372)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:258)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-22 11:13:46.011
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifClassUnused(AlloyViewValidator.java:390)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$2(AlloyViewValidator.java:372)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:258)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-22 11:14:11.614
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifClassUnused(AlloyViewValidator.java:390)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$2(AlloyViewValidator.java:372)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:258)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-22 11:14:12.623
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifClassUnused(AlloyViewValidator.java:390)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$2(AlloyViewValidator.java:372)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:258)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-22 11:49:05.835
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.createWarning(AlloyViewValidator.java:410)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifEventUnused(AlloyViewValidator.java:307)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$0(AlloyViewValidator.java:290)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:240)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.alloy.core 4 0 2014-10-22 11:49:06.854
+!MESSAGE (Build 3.4.0.201409261227) [ERROR]  Failed to parse for file:/Users/Matsuda/test/Titanium_Studio_Workspace/conciergeProject/app/views/look.xml for Alloy XML validation
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.createWarning(AlloyViewValidator.java:410)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.checkifEventUnused(AlloyViewValidator.java:307)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.access$0(AlloyViewValidator.java:290)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:240)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator$1.include(AlloyViewValidator.java:1)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:155)
+	at com.aptana.parsing.util.ParseUtil.treeApply(ParseUtil.java:121)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.doBuildFile(AlloyViewValidator.java:228)
+	at com.appcelerator.titanium.alloy.core.validators.AlloyViewValidator.buildEnding(AlloyViewValidator.java:130)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:341)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)

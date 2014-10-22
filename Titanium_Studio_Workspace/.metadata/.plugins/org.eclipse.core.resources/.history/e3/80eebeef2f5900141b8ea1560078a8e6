@@ -1,0 +1,24 @@
+<Alloy>
+	<Window id="lookWin" title="見る" tabBarHidden="true" layout="vertical">
+		<View id="lookWrap">
+			<Label id="question">質問</Label>
+			<View class="view1">
+				<Label id="travel">旅</Label>
+				<Label id="universe">宇宙・科学</Label>
+				<Label id="children">児童書</Label>
+			</View>
+			<View class="view2">
+				<Button title="旅" />
+				<Button title="宇宙・科学" />
+				<Button title="児童書" />
+			</View>
+			<Button title="文学" />
+			<Label id="literature">文学</Label>
+			<Button title="料理書" />
+			<Label id="cook">料理書</Label>
+			<Button title="歴史" />
+			<Label id="history">歴史</Label>
+			<Button id="random" title="ランダム" />
+		</View>
+	</Window>
+</Alloy>

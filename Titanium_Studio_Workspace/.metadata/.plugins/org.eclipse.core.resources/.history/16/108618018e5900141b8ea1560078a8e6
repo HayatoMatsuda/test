@@ -1,0 +1,73 @@
+"#lookWin":{
+	backgroundColor:"#FFFFFF"
+}
+"Label":{
+	font:{
+		fontSize:30,
+		fontWeight:"bold"
+	},
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	textAlign: 'center',
+	color:"#333333",
+}
+"Button":{
+	font:{
+		fontSize:20,
+		fontWeight:"bold"
+	},
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	textAlign: 'center',
+	color: "#3333FF",
+}
+
+"View":{
+	font:{
+		fontSize:20,
+	},
+	color:"#333333",
+	left:30,
+	layout:"vertical"
+}
+
+".view1":{
+	font:{
+		fontSize:20,
+	},
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	top: 100,
+	color:"#333333",
+	layout:"horizontal"
+}
+".view2":{
+	font:{
+		fontSize:20,
+	},
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	top:20,
+	color:"#333333",
+	layout:"horizontal"
+}
+
+"#question":{
+	font:{
+		fontSize:40,
+	},
+	textAlign: 'center',
+	color:"#333333",
+	top:30,
+	margin:'0 auto'
+}
+
+
+
+"#travel":{
+	
+}
+
+"#universe":{
+	margin:200
+}

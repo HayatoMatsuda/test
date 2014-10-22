@@ -1,0 +1,17 @@
+"#lookWin":{
+	backgroundColor:"#FFFFFF"
+}
+"Button":{
+	font:{
+		fontSize:16,
+		fontWeight:"bold"
+	},
+	align:"center",
+	color:"#333333",
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	top:25,
+	bottom:11,
+	left:11,
+}
+

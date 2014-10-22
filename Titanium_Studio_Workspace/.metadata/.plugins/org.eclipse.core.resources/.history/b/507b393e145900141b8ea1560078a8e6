@@ -1,0 +1,15 @@
+"#lookWin":{
+	backgroundColor:"#FFFFFF"
+}
+"Label":{
+	font:{
+		fontSize:16,
+		fontWeight:"bold"
+	},
+	textAlign:"left",
+	color:"#333333",
+	top:11,
+	bottom:11,
+	left:11,
+}
+

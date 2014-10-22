@@ -1,0 +1,20 @@
+$.index.addEventListener("open",function(e){
+	Alloy.Globals.currentTab = e.activeTab;
+});
+$.index.addEventListener("focus",function(e){
+	Alloy.Globals.currentTab = e.tab;
+});
+$.index.addEventListener("close",function(e){
+	$.destroy();
+});
+
+Alloy.Collections.task.fetch();
+
+$.index.open();
+
+
+function lookButton(){
+	var lookWin;
+	lookWin = Alloy.createController("look").getView("lookWin");
+	Alloy.Globals.currentTab.open(lookWin);
+}

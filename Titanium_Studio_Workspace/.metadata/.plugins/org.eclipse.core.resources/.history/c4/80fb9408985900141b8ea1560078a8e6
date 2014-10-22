@@ -1,0 +1,10 @@
+function Random(){
+	var ques = ["海外旅行に言った回数は？", "今までに読んだ本の数は？"];
+	var travelReply = ["90回", "1000冊"];
+	var universeReply = ["10回", "3000冊"];
+	var childrenReply = ["20回", "5000冊"];
+	var literatureReply = ["30回", "10000冊"];
+	var cookReply = ["40回", "500冊"];
+	var historyReply = ["50回", "100冊"];
+	$.question.text="a";
+}

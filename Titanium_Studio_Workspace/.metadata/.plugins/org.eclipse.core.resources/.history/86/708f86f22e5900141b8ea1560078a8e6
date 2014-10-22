@@ -1,0 +1,54 @@
+"#lookWin":{
+	backgroundColor:"#FFFFFF"
+}
+"Label":{
+	font:{
+		fontSize:20,
+		fontWeight:"bold"
+	},
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	textAlign: 'center',
+	color:"#333333",
+}
+
+".view1":{
+	font:{
+		fontSize:20,
+	},
+	textAlign: 'center',
+	color:"#333333",
+	layout:"horizontal",
+	left:30
+}
+".view2":{
+	font:{
+		fontSize:20,
+	},
+	textAlign: 'center',
+	color:"#333333",
+	layout:"horizontal"
+	left:30
+}
+
+"#question":{
+	font:{
+		fontSize:40,
+	},
+	textAlign: 'center',
+	color:"#333333",
+	top:30,
+	margin:'0 auto'
+}
+
+
+
+// "#travel":{
+	// top:30,
+	// right:40
+// }
+// 
+// "#universe":{
+	// top:30,
+	// margin:'0 auto'
+// }
